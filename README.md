@@ -17,7 +17,7 @@ O Eclipse JEE (Eclipse IDE for Java EE Developers) versão Kepler ou superior po
 
 - Faça: File -> Import -> Maven -> Existing Maven Projects
 - Clique em 'Next >'
-- Selecione o diretório raiz do projeto (Root directory)
+- Selecione o diretório raiz (Root directory) do projeto baixado
 - Clique em "Finish"
 
 
