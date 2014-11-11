@@ -20,7 +20,16 @@ O Eclipse JEE (Eclipse IDE for Java EE Developers) versão Kepler ou superior po
 - Selecione o diretório raiz (Root directory) do projeto baixado
 - Clique em "Finish"
 
+Criar o esquema relacional no PostgreSQL
+----------------------------------------
+```sql
+create database contatos;
 
-
-
-
+create table clientes (
+  id serial primary key,
+  cpf varchar(11),
+  nome varchar(50),
+  fone varchar(11),
+  renda decimal(10,2)
+);
+```
