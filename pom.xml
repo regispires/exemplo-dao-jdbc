@@ -5,11 +5,16 @@
 	<artifactId>exemplo-dao-jdbc</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+	<properties>
+		<maven.compiler.source>15</maven.compiler.source>
+		<maven.compiler.target>15</maven.compiler.target>
+	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
-			<version>9.3-1101-jdbc41</version>
+			<version>42.3.0</version>
 		</dependency>
 	</dependencies>
 </project>
